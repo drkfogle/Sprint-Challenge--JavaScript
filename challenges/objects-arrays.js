@@ -13,8 +13,8 @@ const tyrannosaurus = {
   weight : '7000kg',
   length : '12m',
   period : 'Late Cretaceious',
-  roar(){
-    console.log("RAWERSRARARWERSARARARRRR") 
+  roar : function(){
+    return "RAWERSRARARWERSARARARRRR"
 }
 }
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
